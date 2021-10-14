@@ -8,6 +8,6 @@ spec:
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
-  commonName: <<__subdomain_dashboard__>>.<<__domain__>>
+  commonName: kubeflow.kubeflow.lukemarsden.net
   dnsNames:
-    - <<__subdomain_dashboard__>>.<<__domain__>>
+    - kubeflow.kubeflow.lukemarsden.net
