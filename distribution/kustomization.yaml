@@ -8,28 +8,28 @@ resources:
 # - argocd-applications/nginx.yaml
 # - argocd-applications/nvidia-gpu-operator.yaml
 - argocd-applications/istio-operator.yaml
-- argocd-applications/istio.yaml    
+- argocd-applications/istio.yaml
 - argocd-applications/istio-resources.yaml
 # - argocd-applications/knative.yaml
 
 # Pick *one* of the following applications
-- argocd-applications/argocd.yaml
+# - argocd-applications/argocd.yaml
 # - argocd-applications/argocd-private-repo.yaml
 
-# Pick *one* of the following applications 
-- argocd-applications/cert-manager-self-signing.yaml
+# Pick *one* of the following applications
+# - argocd-applications/cert-manager-self-signing.yaml
 # - argocd-applications/cert-manager-dns-01.yaml
 
 # Pick *one* of the following
 - argocd-applications/certificates.yaml
 # - argocd-applications/certificates-imported.yaml
 
-# Pick *one* of the following applications:  
+# Pick *one* of the following applications:
 # - argocd-applications/oidc-auth-on-cluster-dex.yaml
 - argocd-applications/oidc-auth-on-cluster-keycloak.yaml
 # - argocd-applications/oidc-auth-external.yaml
 
-## Kubeflow  
+## Kubeflow
 - argocd-applications/central-dashboard.yaml
 - argocd-applications/profile-controller_access-management.yaml
 - argocd-applications/kubeflow-namespace.yaml
@@ -62,6 +62,6 @@ resources:
 # - argocd-applications/kubecost.yaml
 
 ## Contrib
-# - argocd-applications/mlflow.yaml
+- argocd-applications/mlflow.yaml
 # - argocd-applications/experimental-pvcviewer-controller.yaml
 # - argocd-applications/experimental-volumes-web-app.yaml
